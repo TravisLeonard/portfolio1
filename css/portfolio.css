@@ -1,0 +1,53 @@
+
+
+body {
+    width: auto;
+    background: #ff6600;
+    text-align: left;
+    
+}
+
+
+
+.nav-link {
+    background-color: #ff6600;
+    margin: right;
+    color: black;
+
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.navbar-toggler {
+    margin-right: auto;
+}
+
+h2 {
+    color: white;
+    margin-top: 100px;
+}
+
+.clickMe {
+    margin: right;
+    color: black;
+    text-decoration: none;
+}
+
+.clickMe:hover {
+    color: white;
+}
+
+#aboutUs {
+    margin-top: 15%;
+}
+
+#testimonials {
+    margin: 15% 0% 15% 0%;
+}
+
+#forrestImage {
+    border-radius: 15px;
+}
+

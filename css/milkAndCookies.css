@@ -1,0 +1,26 @@
+/* milkAndCookies.css */
+
+.header {
+    margin-left: 235px;
+    margin-bottom: 30px;
+}
+
+img {
+    border-radius: 10px;
+}
+ body {
+    background-image: url(images/Oatmeal-Raisin1.png);
+    padding: 20px;
+}
+
+fieldset {
+    width: 800px;
+    border-radius: 20px;
+}
+
+legend {
+    color: gray;
+    font-size: 40px;
+    font-weight: 100;
+    border-radius: 10px;
+}
