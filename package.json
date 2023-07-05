@@ -4,7 +4,7 @@
   "description": "First Portfolio",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently -k \"npm run dev\" \"npm run db\"",
+    "start": "npm run watch:all",
     "build": "npm run clean && npm run usemin",
     "lint": "jshint src/**.js",
     "copyjs": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.js js",
