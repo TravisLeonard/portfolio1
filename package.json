@@ -9,7 +9,7 @@
     "lint": "jshint src/**.js",
     "copyjs": "copyfiles -f node_modules/bootstrap/dist/js/bootstrap.bundle.js js",
     "clean": "rimraf dist",
-    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html && usemin milkAndCookies.html -d dist --htmlmin -o dist/milkAndCookies.html",
+    "usemin": "usemin index.html -d dist --htmlmin -o dist/index.html",
     "sass": "node-sass --include-path scss scss/main.scss assets/main.css",
     "bash": "Location of the Bash/Shell script file",
     "dev": "lite-server",
@@ -20,6 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^8.2.0",
+    "copyfiles": "^2.2.0",
     "jshint": "^2.13.6",
     "lite-server": "^2.6.1",
     "mocha": "^10.2.0",
